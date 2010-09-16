@@ -12,8 +12,7 @@
  *
  * Project home:
  *   http://www.appelsiini.net/projects/jeditable
- */
- 
+ */ 
 $.editable.addInputType('tinymce', {
     /* Use default textarea instead of writing code here again. */
     element : function(settings, original) {
