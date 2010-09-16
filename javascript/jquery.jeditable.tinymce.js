@@ -39,9 +39,9 @@ $.editable.addInputType('tinymce', {
         var self = this;
         $('textarea', self).val($(original).context.revert);
         setTimeout(function() { $('textarea', self).tinymce({
-        			script_url: '/javascript/lib/tinymce/3.2.7/tiny_mce.js',
+        			script_url: 'http://tinymce.moxiecode.com/js/tinymce/jscripts/tiny_mce/tiny_mce_jquery.js',
         			theme : "advanced",
-        			language : "nl",
+        			language : "en",
         		    theme : "advanced",
         		    skin : "o2k7",
         		    skin_variant : "silver",
@@ -51,7 +51,6 @@ $.editable.addInputType('tinymce', {
         		    theme_advanced_buttons1 : "cut,copy,paste,pasteword,separator,bold,italic,separator,bullist,numlist,separator,justifyleft,justifycenter,justifyright,justifyfull,separator,link,unlink,separator,removeformat",
         		    theme_advanced_buttons2 : "",
         		    theme_advanced_buttons3 : "",
-        			content_css : "/g3/default.css",
         		    theme_advanced_toolbar_location : "top",
         		    theme_advanced_toolbar_align : "left"
        	});}, 0);
