@@ -1,6 +1,6 @@
 /*
  * TinyMCE input for Jeditable
- * Copyright (c) 2010 Justin Kieft
+ * Copyright (c) 2010 Justin Kieft (mezzin)
  * Based on work done by Mika Tuupola with his jeditable.wysiwyg plugin.
  * Copyright (c) 2008 Mika Tuupola
  *
